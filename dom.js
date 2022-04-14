@@ -29,7 +29,13 @@ header.style.borderBottom = 'solid 3px #000';
 // GETELEMENTSBYCLASSNAME //
 var items = document.getElementsByClassName('list-group-item');
 console.log(items);
+
+console.log(items[0]);
+items[0].style.fontWeight = 'bold';
 console.log(items[1]);
-items[1].textContent = 'Hello 2';
 items[1].style.fontWeight = 'bold';
-items[1].style.color = 'green';
+console.log(items[2]);
+items[2].style.fontWeight = 'bold';
+items[2].style.backgroundColor = 'green';
+console.log(items[3]);
+items[3].style.fontWeight = 'bold';
